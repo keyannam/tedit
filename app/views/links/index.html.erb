@@ -1,6 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Links</h1>
+<h1><center>Get Ted Talks</center></h1>
+
+<% @links.each do |link| %>
+  <div class="link row clearfix">
+    <h2><%= link_to link.title, link %></h2>
+  </div>
+  <% end %>
+
+
+<!-- <h1>Listing Links</h1>
 
 <table>
   <thead>
@@ -24,7 +33,7 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+</table> -->
 
 <!-- <br>
 

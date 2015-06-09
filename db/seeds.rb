@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 user = User.new
 user.email = 'keyannamayfield@gmail.com'
-user.encrypted_password = '$2a$10$x.8wlaK8kqbAf/enDr2RGOA01c.IQgsNGE.PmHM//fRQ7A1/yDm2y'
+user.password = 'password'
 user.save!
 
 

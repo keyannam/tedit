@@ -5,7 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Link.create(title: 'this is a title', url: 'http://example.com', user_id: '1')
+User.create(email: "keyannamayfield@gmail.com", encrypted_password: "password")
+
+Link.create(title: 'The Law Of 33%', url: 'https://youtu.be/7bB_fVDlvhc', user_id: '1')
 Link.create(title: 'this is a title', url: 'http://example1.com', user_id: '1')
 Link.create(title: 'this is a title', url: 'http://example2.com', user_id: '1')
 Link.create(title: 'this is a title', url: 'http://example3.com', user_id: '1')

@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Link.create(title: 'this is a title', url: 'http://example.com', user_id: '1')
+Link.create(title: 'this is a title', url: 'http://example1.com', user_id: '1')
+Link.create(title: 'this is a title', url: 'http://example2.com', user_id: '1')
+Link.create(title: 'this is a title', url: 'http://example3.com', user_id: '1')
+
+# Link.new
+# Link.save

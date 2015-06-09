@@ -5,7 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-User.create(email: "keyannamayfield@gmail.com", encrypted_password: "password")
+user = User.new
+user.email = 'test@example.com'
+user.encrypted_password = 'password'
+user.save!
+
 
 Link.create(title: 'The Law Of 33%', url: 'https://youtu.be/7bB_fVDlvhc', user_id: '1')
 Link.create(title: 'this is a title', url: 'http://example1.com', user_id: '1')
